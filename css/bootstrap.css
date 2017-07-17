@@ -58,13 +58,24 @@
 
 .section-title-black {
     text-align: center;
-    font-family: Charter, sans-serif;
-    letter-spacing: 2px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #000;
 	margin-top: 5rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+  .section-title-black {
+    font-size: 1.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+
+  }
+
+
 }
 
 .section-title-black:after {
@@ -77,6 +88,44 @@
     background-color: #cc0000;
     margin: 1rem auto 2rem;
 }
+
+
+
+
+
+.column-title-black {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #000;
+	margin-top: 2.5rem;
+	margin-bottom: .5rem;
+}
+
+@media (max-width: 480px) {
+  .column-title-black {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: .25rem;
+
+  }
+
+
+}
+
+.column-title-black:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 10%;
+    max-width: 3rem;
+    height: 0.2rem;
+    background-color: #cc0000;
+    margin: .5rem auto 0;
+}
+
 
 .section-title-white {
     text-align: center;
@@ -5651,7 +5700,16 @@ a.thumbnail.active {
 .media-heading {
   margin-top: 0;
   margin-bottom: 5px;
+  color: #000;
+  text-decoration: underline;
+  transition: .3s linear;
 }
+.media-heading:hover {
+
+  color: #cc0000;
+
+}
+
 .media-list {
   padding-left: 0;
   list-style: none;
