@@ -71,7 +71,7 @@
   .section-title-black {
     font-size: 1.7rem;
     margin-top: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 
   }
 
@@ -100,14 +100,14 @@
     text-transform: uppercase;
     font-size: 1.6rem;
     color: #000;
-	margin-top: 5rem;
+	margin-top: 4.75rem;
 	margin-bottom: 1rem;
 }
 
 @media (max-width: 480px) {
   .column-title-black {
     font-size: 1.4rem;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     margin-bottom: .25rem;
 
   }
