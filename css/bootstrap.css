@@ -101,12 +101,12 @@
     font-size: 1.6rem;
     color: #000;
 	margin-top: 2.5rem;
-	margin-bottom: .5rem;
+	margin-bottom: 1rem;
 }
 
 @media (max-width: 480px) {
   .column-title-black {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
     margin-bottom: .25rem;
 
@@ -5658,7 +5658,8 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .media {
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 .media:first-child {
   margin-top: 0;
